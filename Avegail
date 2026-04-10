@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avegail Oton Debut</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(to bottom, #f8c8dc, #ffffff);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #d4af37;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Great Vibes', cursive;
+      color: #d4af37;
+      font-size: 2.5rem;
+    }
+
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 500px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .gallery img {
+      width: 150px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    form input, form button {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background: #d4af37;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #f8c8dc;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>A Night to Remember</h1>
+    <p>Avegail Oton's 18th Debut</p>
+    <p>April 20, 2026 | 6:00 PM</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About the Debutant</h2>
+    <div class="card">
+      <p>Hello! I’m Avegail Oton, and I’m excited to celebrate this special milestone with you. Thank you for being part of my journey 💖</p>
+    </div>
+  </section>
+
+  <!-- EVENT DETAILS -->
+  <section>
+    <h2>Event Details</h2>
+    <div class="card">
+      <p><strong>Date:</strong> April 20, 2026</p>
+      <p><strong>Time:</strong> 6:00 PM</p>
+      <p><strong>Venue:</strong> Avegail's Mansion</p>
+      <p><strong>Dress Code:</strong> Formal Attire</p>
+    </div>
+  </section>
+
+  <!-- 18 ROSES -->
+  <section>
+    <h2>18 Roses</h2>
+    <div class="card">
+      <p>1. CJ. O</p>
+      <p>2. Vincent</p>
+      <p>3. Acer</p>
+      <p>4. Jumbie</p>
+      <p>5. Alvie James</p>
+      <p>6. Clent</p>
+      <p>7. Johnlee</p>
+      <p>8. Rodel</p>
+      <p>9. David</p>
+      <p>10. Yuri</p>
+      <p>11. Hami</p>
+      <p>12. AJ</p>
+      <p>13. Lance Navarro</p>
+      <p>14. Edito</p>
+      <p>15. Reynier</p>
+      <p>16. Aaron</p>
+      <p>17. Janjan</p>
+      <p>18. Renzvie</p>
+    </div>
+  </section>
+
+  <!-- 18 CANDLES -->
+  <section>
+    <h2>18 Candles</h2>
+    <div class="card">
+      <p>1. Kimchel</p>
+      <p>2. Vernie</p>
+      <p>3. Dhannica</p>
+      <p>4. Mary Chrysthyl</p>
+      <p>5. Cathy Ningasca</p>
+      <p>6. Adelaide</p>
+      <p>7. Resmae</p>
+      <p>8. Angel</p>
+      <p>9. Honey</p>
+      <p>10. Jillian</p>
+      <p>11. Lucia</p>
+      <p>12. Arlet</p>
+      <p>13. Maeca</p>
+      <p>14. Briggette</p>
+      <p>15. Jesami</p>
+      <p>16. Faith</p>
+      <p>17. Aira</p>
+      <p>18. Lovely</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/150">
+      <img src="https://via.placeholder.com/150">
+      <img src="https://via.placeholder.com/150">
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section>
+    <h2>RSVP</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="text" placeholder="Contact Number" required><br>
+      <button type="submit">Confirm Attendance</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Thank you for celebrating with me 💕</p>
+  </footer>
+
+  <script>
+    function submitForm(e) {
+      e.preventDefault();
+      alert("Thank you for your response!");
+    }
+  </script>
+
+</body>
+</html
